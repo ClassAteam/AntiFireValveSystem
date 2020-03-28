@@ -185,7 +185,7 @@ int main()
 	}
 	else
 	{
-	F82 = 0;
-	F72 = 0;
+	F82 = false;
+	F72 = false;
     }
 }
