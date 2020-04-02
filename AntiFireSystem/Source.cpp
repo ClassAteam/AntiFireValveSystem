@@ -1,6 +1,23 @@
 #include "Header.h"
+#include <iostream>
+#include <string>
+#include <fstream>
 int main()
 {
+	std::string line;
+
+	std::ifstream in("header.h"); // окрываем файл для чтения
+	if (in.is_open())
+	{
+		while (getline(in, line))
+		{
+			std::cout << line << std::endl;
+		}
+	}
+	in.close();     // закрываем файл
+
+	std::cout << "End of program" << std::endl;
+
 	if (S9)
 	{
 		//////////////////////////// Voltage check
