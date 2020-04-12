@@ -106,7 +106,7 @@ void logic()
 			{
 				if (K15 == true)
 				{
-					F25 == true;
+					F25 = true;
 				}
 				else F25 = false;
 			}
@@ -126,7 +126,7 @@ void logic()
 			{
 				if (K19 == true)
 				{
-					F35 == true;
+					F35 = true;
 				}
 				else F35 = false;
 			}
@@ -146,7 +146,7 @@ void logic()
 			{
 				if (K23 == true)
 				{
-					F45 == true;
+					F45 = true;
 				}
 				else F45 = false;
 			}
@@ -166,7 +166,7 @@ void logic()
 			{
 				if (K25 == true)
 				{
-					F55 == true;
+					F55 = true;
 				}
 				else F55 = false;
 			}
@@ -186,7 +186,7 @@ void logic()
 			{
 				if (K27 == true)
 				{
-					F65 == true;
+					F65 = true;
 				}
 				else F65 = false;
 			}
