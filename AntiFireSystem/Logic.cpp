@@ -200,10 +200,3 @@ void logic()
 	}
 }
 
-void printvalues()
-{
-}
-
-void printvalue()
-{
-}
