@@ -9,7 +9,6 @@ K58, K60, K61, F25, F35, F45, F55, F65, F72, F82, F132, F142;
 extern double UbusL, UbusR, Uacc;
 extern int F7, F8, S3, S4, S5, S6, S7, S8, S9;
 
-
 void logic()
 {
 	if (S9)
@@ -199,4 +198,12 @@ void logic()
 	F82 = false;
 	F72 = false;
 	}
+}
+
+void printvalues()
+{
+}
+
+void printvalue()
+{
 }
