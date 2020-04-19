@@ -1,5 +1,11 @@
+
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <vector>
 #include "Header.h"
-int main()
+
+void logic()
 {
 	if (S9)
 	{
@@ -96,7 +102,7 @@ int main()
 			{
 				if (K15 == true)
 				{
-					F25 == true;
+					F25 = true;
 				}
 				else F25 = false;
 			}
@@ -116,7 +122,7 @@ int main()
 			{
 				if (K19 == true)
 				{
-					F35 == true;
+					F35 = true;
 				}
 				else F35 = false;
 			}
@@ -136,7 +142,7 @@ int main()
 			{
 				if (K23 == true)
 				{
-					F45 == true;
+					F45 = true;
 				}
 				else F45 = false;
 			}
@@ -156,7 +162,7 @@ int main()
 			{
 				if (K25 == true)
 				{
-					F55 == true;
+					F55 = true;
 				}
 				else F55 = false;
 			}
@@ -176,7 +182,7 @@ int main()
 			{
 				if (K27 == true)
 				{
-					F65 == true;
+					F65 = true;
 				}
 				else F65 = false;
 			}
@@ -187,5 +193,6 @@ int main()
 	{
 	F82 = false;
 	F72 = false;
-    }
+	}
 }
+
