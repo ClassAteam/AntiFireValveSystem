@@ -65,15 +65,15 @@ PSA19_1
 PSA19_2
 0
 Ushal
-0
+19
 Ushap
-0
+19
 S10
 0
 PF11
 0
 PF9
-0
+1
 LzhSrabSigPrg1dv
 0
 LzhSrabSigPrg2dv
@@ -127,3 +127,4 @@ BSS811X1t
 BSS812X5j
 0
 BSS812X5p
+0
