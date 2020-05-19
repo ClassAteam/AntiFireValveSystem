@@ -6,4 +6,4 @@ K34_2910, K35_2910, K38_2910, K13_2910, K14_2910, K16_2910, K17_2910, K20_2910, 
 
 extern double Ushal, Ushap, Ush1dpl, Ush2dpl, Ush1p, Pn1gs1, Pn1gs2, Pn2gs1, Pn2gs2, Pn1gs3, Pn1gs4, Pn2gs3, Pn2gs4;
 
-int S5_2910, S6_2910, S7_2910, S1_2910, S2_2910, S3_2910, S4_2910, F9_7322, F3_10010, F3_2910, f_grl1, f_grl2, a_rud_dv1, a_rud_dv2, a_rud_dv3, a_rud_dv4;
+extern int S5_2910, S6_2910, S7_2910, S1_2910, S2_2910, S3_2910, S4_2910, F9_7322, F3_10010, F3_2910, f_grl1, f_grl2, a_rud_dv1, a_rud_dv2, a_rud_dv3, a_rud_dv4;
