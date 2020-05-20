@@ -52,7 +52,7 @@ void logic()
 				if (Pgs1 > 200.0)
 				{
 					Pgs1 - 200.0;
-					l1gs1 = (0.7 - (Pgs1 * 0.0082352941176471));
+					l1gs1 = (0.7 - (Pgs1 * 0.0082352941176471));			//throw exceptions for 0 and -values
 				}
 			}
 			else

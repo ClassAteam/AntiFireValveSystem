@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="3rdHydroSystemResolvingAlgorithm.cpp" />
+    <ClCompile Include="Logic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

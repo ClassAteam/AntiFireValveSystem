@@ -5,7 +5,19 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	double Pgs1 = 200;
+	double l1gs1 = 0;
+	if (Pgs1 <= 200.0)
+	{
+		l1gs1 = (1 - (Pgs1 * 0.0015));
+	}
+	if (Pgs1 > 200.0)
+	{
+		Pgs1 - 200.0;
+		l1gs1 = (0.7 - (Pgs1 * 0.0082352941176471));
+	}
+	std::cout << "Pgs1 = " << Pgs1 << std::endl;
+	std::cout << "l1gs1 = " << l1gs1 << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
