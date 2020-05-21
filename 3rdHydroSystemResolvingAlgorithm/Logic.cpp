@@ -25,7 +25,7 @@ void logic()
 			if (Pv_vsu >= 1.5)
 			{
 				PNTNUGS1 = true;
-				double amount_for_presure(double Pgs);
+				double amount_for_presure_vsu(double Pgs);
 			}
 		}
 	}
