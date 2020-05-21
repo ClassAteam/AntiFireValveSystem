@@ -5,4 +5,18 @@ otkaz_gs4;
 extern double Pgs1, Pgs2, Pgs3, Pgs4, Qngn1gs1, Qngn1gs2, Qngn1gs3, Qngn1gs4, Qngn2gs1, Qngn2gs2, Qngn2gs3, Qngn2gs4, Pvd1, Pvd2, Pvd3, Pvd4, Kn1gs1, Kn1gs2, Kn1gs3, Kn1gs4,
 Kn2gs1, Kn2gs2, Kn2gs3, Kn2gs4, l1gs1, l1gs2, l1gs3, l1gs4, l2gs1, l2gs2, l2gs3, l2gs4;
 
+double amount_for_presure(double Pgs)
+{
+	double lgs = 0;
+	if (Pgs <= 200.0)
+	{
+		lgs = (1 - (Pgs * 0.0015));
+	}
+	if (Pgs > 200.0)
+	{
+		lgs = ((Pgs - 200) * (0.0035 / 85));
+	}
+	/*std::cout << "Pgs = " << Pgs1 << std::endl;
+	std::cout << "lgs = " << lgs << std::endl;*/
+}
 

@@ -3,6 +3,7 @@
 #include <fstream>
 #include <vector>
 #include "Header.h"
+double amount_for_preusre;
 void logic()
 {
 	///////////////////////////////////////Pgs1 cycle
@@ -45,15 +46,7 @@ void logic()
 			if (Pvd1 >= 7.0)
 			{
 				PNN1GS1 = true;
-				if (Pgs1 <= 200.0)
-				{
-					l1gs1 = (1 - (Pgs1 * 0.0015));
-				}
-				if (Pgs1 > 200.0)
-				{
-					Pgs1 - 200.0;
-					l1gs1 = (0.7 - (Pgs1 * 0.0082352941176471));			//throw exceptions for 0 and -values
-				}
+				l1gs1 = amount_for_presure(Pgs1);
 			}
 			else
 			{
@@ -72,15 +65,7 @@ void logic()
 			if (Pvd2 >= 7.0)
 			{
 				PNN2GS1 = true;
-				if (Pgs1 <= 200.0)
-				{
-					l1gs2 = (1 - (Pgs1 * 0.0015));
-				}
-				if (Pgs1 > 200.0)
-				{
-					Pgs1 - 200.0;
-					l1gs2 = (0.7 - (Pgs1 * 0.0082352941176471));
-				}
+				l1gs2 = amount_for_presure(Pgs1);
 			}
 			else
 			{
@@ -135,15 +120,7 @@ void logic()
 			if (Pvd2 >= 7.0)
 			{
 				PNN1GS2 = true;
-				if (Pgs2 <= 200.0)
-				{
-					l1gs2 = (1 - (Pgs2 * 0.0015));
-				}
-				if (Pgs2 > 200.0)
-				{
-					Pgs2 - 200.0;
-					l1gs2 = (0.7 - (Pgs2 * 0.0082352941176471));
-				}
+				l1gs2 = amount_for_presure(Pgs2);
 			}
 			else
 			{
@@ -162,15 +139,7 @@ void logic()
 			if (Pvd2 >= 7.0)
 			{
 				PNN2GS2 = true;
-				if (Pgs2 <= 200.0)
-				{
-					l2gs2 = (1 - (Pgs1 * 0.0015));
-				}
-				if (Pgs2 > 200.0)
-				{
-					Pgs2 - 200.0;
-					l2gs2 = (0.7 - (Pgs1 * 0.0082352941176471));
-				}
+				l2gs2 = amount_for_presure(Pgs2);
 			}
 			else
 			{
@@ -224,16 +193,7 @@ void logic()
 		{
 			if (Pvd3 >= 7.0)
 			{
-				PNN1GS3 = true;
-				if (Pgs3 <= 200.0)
-				{
-					l1gs3 = (1 - (Pgs2 * 0.0015));
-				}
-				if (Pgs3 > 200.0)
-				{
-					Pgs3 - 200.0;
-					l1gs3 = (0.7 - (Pgs2 * 0.0082352941176471));
-				}
+				l1gs3 = amount_for_presure(Pgs2);
 			}
 			else
 			{
@@ -252,15 +212,7 @@ void logic()
 			if (Pvd4 >= 7.0)
 			{
 				PNN2GS3 = true;
-				if (Pgs3 <= 200.0)
-				{
-					l2gs3 = (1 - (Pgs1 * 0.0015));
-				}
-				if (Pgs3 > 200.0)
-				{
-					Pgs3 - 200.0;
-					l2gs3 = (0.7 - (Pgs1 * 0.0082352941176471));
-				}
+				l2gs3 = amount_for_presure(Pgs3);
 			}
 			else
 			{
@@ -315,15 +267,7 @@ void logic()
 			if (Pvd4 >= 7.0)
 			{
 				PNN1GS4 = true;
-				if (Pgs4 <= 200.0)
-				{
-					l1gs4 = (1 - (Pgs2 * 0.0015));
-				}
-				if (Pgs4 > 200.0)
-				{
-					Pgs4 - 200.0;
-					l1gs4 = (0.7 - (Pgs2 * 0.0082352941176471));
-				}
+				l1gs4 = amount_for_presure(Pgs2);
 			}
 			else
 			{
@@ -342,15 +286,7 @@ void logic()
 			if (Pvd3 >= 7.0)
 			{
 				PNN2GS4 = true;
-				if (Pgs4 <= 200.0)
-				{
-					l2gs4 = (1 - (Pgs1 * 0.0015));
-				}
-				if (Pgs4 > 200.0)
-				{
-					Pgs4 - 200.0;
-					l2gs4 = (0.7 - (Pgs1 * 0.0082352941176471));
-				}
+				l2gs4 = amount_for_presure(Pgs4);
 			}
 			else
 			{

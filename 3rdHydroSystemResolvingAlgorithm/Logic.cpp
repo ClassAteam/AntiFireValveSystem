@@ -14,7 +14,7 @@ void logic()
 	}
 	else
 	{
-		if (PTNUGS1 = true)
+		if (PTNUGS1 == true)
 		{
 			PNTNUGS1 = false;
 			Qtnu_gs1 = false;
@@ -25,7 +25,7 @@ void logic()
 			if (Pv_vsu >= 1.5)
 			{
 				PNTNUGS1 = true;
-
+				double amount_for_presure(double Pgs);
 			}
 		}
 	}

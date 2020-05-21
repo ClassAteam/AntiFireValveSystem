@@ -148,7 +148,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Logic.cpp" />
-    <ClCompile Include="PumpsFillingAlgorithm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
