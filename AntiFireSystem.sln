@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HydroAlarmSystem", "HydroAl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlarmforHydroSystem", "AlarmforHydroSystem\AlarmforHydroSystem.vcxproj", "{CC424A35-C1EC-40F4-8B05-C53E6D3CBFE3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TZHTAlarm", "TZHTAlarm\TZHTAlarm.vcxproj", "{1DACE935-C346-4D4D-A852-E8BCFA111B52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{CC424A35-C1EC-40F4-8B05-C53E6D3CBFE3}.Release|x64.Build.0 = Release|x64
 		{CC424A35-C1EC-40F4-8B05-C53E6D3CBFE3}.Release|x86.ActiveCfg = Release|Win32
 		{CC424A35-C1EC-40F4-8B05-C53E6D3CBFE3}.Release|x86.Build.0 = Release|Win32
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Debug|x64.ActiveCfg = Debug|x64
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Debug|x64.Build.0 = Debug|x64
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Debug|x86.Build.0 = Debug|Win32
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Release|x64.ActiveCfg = Release|x64
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Release|x64.Build.0 = Release|x64
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Release|x86.ActiveCfg = Release|Win32
+		{1DACE935-C346-4D4D-A852-E8BCFA111B52}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
