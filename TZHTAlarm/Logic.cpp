@@ -268,6 +268,25 @@ void logic()
 			}
 		}
 	}
+	//							TS2 toggle
+	if (K3_2935 || K6_2935 || K8_2935 || K12_2935 == true)
+	{
+		TS2 = true;
+	}
+	else
+	{
+		TS2 = false;
+	}
+
+	//							PS toggle
+	if (TS || TS1 || BSS824X1HH || TS2 == true)
+	{
+		PS = true;
+	}
+	else
+	{
+		PS = false;
+	}
 
 
 
