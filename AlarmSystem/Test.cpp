@@ -53,7 +53,7 @@ int main()
 	std::string word;
 
 
-	// try to do it through the pointers revaluate the address and compare it with value int header
+	// try to do it through the pointers revaluate the address and compare it with value in header
 	while (std::getline(file, word))
 	{
 		if (word == "PKO")
