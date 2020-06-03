@@ -367,11 +367,11 @@ void logic()
 
 	if (Ushal >= 18.0 && Psurgs1 < 30)
 	{
-		BSS811X2D = true;
+		BSS811X2d = true;
 	}
 	else
 	{
-		BSS811X2D = false;
+		BSS811X2d = false;
 	}
 
 	//////////////BSS811X2 toggle
@@ -379,11 +379,11 @@ void logic()
 
 	if (Ushal >= 18.0 && Psurgs2 < 30)
 	{
-		BSS811X2E = true;
+		BSS811X2e = true;
 	}
 	else
 	{
-		BSS811X2E = false;
+		BSS811X2e = false;
 	}
 
 	//////////////BSS811X2 toggle
@@ -391,11 +391,11 @@ void logic()
 
 	if (Ushap >= 18.0 && Psurgs3 < 30)
 	{
-		BSS811X2F = true;
+		BSS811X2f = true;
 	}
 	else
 	{
-		BSS811X2F = false;
+		BSS811X2f = false;
 	}
 
 	//////////////BSS811X2 toggle
@@ -403,11 +403,11 @@ void logic()
 
 	if (Ushap >= 18.0 && Psurgs4 < 30)
 	{
-		BSS811X2G = true;
+		BSS811X2g = true;
 	}
 	else
 	{
-		BSS811X2G = false;
+		BSS811X2g = false;
 	}
 
 	//		PSA3 toggle
@@ -422,7 +422,7 @@ void logic()
 	
 	//		TS1 toggle
 
-	if (BSS811X2D || BSS811X2E || BSS811X2F || BSS811X2G)
+	if (BSS811X2d || BSS811X2e || BSS811X2f || BSS811X2g)
 	{
 		TS1 = true;
 	}
