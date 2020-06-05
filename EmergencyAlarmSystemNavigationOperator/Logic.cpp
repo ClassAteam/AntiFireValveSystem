@@ -146,7 +146,6 @@ void logic()
 			BSS926X2d = false;
 			PVkCSOZHSHOx7 = false;
 		}
-		
 
 		if (PVkCSOZHSHOx_sum == 0)
 		{
@@ -164,188 +163,349 @@ void logic()
 
 		///////////////Red lights
 		//////////////1
-		if (BSS811X1E)
+		if (BSS926X1A)
 		{
-			BSS811X2C = true;
-			PVkCSOKLLy1 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2A = true;
 		}
 		else
 		{
-			BSS811X2C = false;
-			PVkCSOKLLy1 = false;
+			BSS926X2A = false;
 		}
 		///////////////Red lights
 		//////////////2
-		if (BSS811X1G)
+		if (BSS926X1E)
 		{
-			BSS811X2D = true;
-			PVkCSOKLLy2 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2C = true;
 		}
 		else
 		{
-			BSS811X2D = false;
-			PVkCSOKLLy2 = false;
+			BSS926X2C = false;
 		}
 		///////////////Red lights
 		//////////////3
-		if (BSS811X1J)
+		if (BSS926X1J)
 		{
-			BSS811X2E = true;
-			PVkCSOKLLy3 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2E = true;
 		}
 		else
 		{
-			BSS811X2E = false;
-			PVkCSOKLLy3 = false;
+			BSS926X2E = false;
 		}
 		///////////////Red lights
 		//////////////4
-		if (BSS811X1L)
+		if (BSS926X1L)
 		{
-			BSS811X2F = true;
-			PVkCSOKLLy4 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2F = true;
 		}
 		else
 		{
-			BSS811X2F = false;
-			PVkCSOKLLy4 = false;
+			BSS926X2F = false;
 		}
 		///////////////Red lights
 		//////////////5
-		if (BSS811X1n)
+		if (BSS926X1N)
 		{
-			BSS811X2U = true;
-			PVkCSOKLLy5 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2G = true;
 		}
 		else
 		{
-			BSS811X2U = false;
-			PVkCSOKLLy5 = false;
+			BSS926X2G = false;
 		}
 		///////////////Red lights
 		//////////////6
-		if (BSS811X1r)
+		if (BSS926X1R)
 		{
-			BSS811X2W = true;
-			PVkCSOKLLy6 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2H = true;
 		}
 		else
 		{
-			BSS811X2W = false;
-			PVkCSOKLLy6 = false;
+			BSS926X2H = false;
 		}
 		///////////////Red lights
 		//////////////7
-		if (BSS811X1BB)
+		if (BSS926X1T)
 		{
-			BSS811X2b = true;
-			PVkCSOKLLy7 = true;
-			PVkCSOKLLy_sum++;
+			BSS926X2J = true;
 		}
 		else
 		{
-			BSS811X2b = false;
-			PVkCSOKLLy7 = false;
+			BSS926X2J = false;
+		}
+		///////////////Red lights
+		//////////////8
+		if (BSS926X1V)
+		{
+			BSS926X2K = true;
+		}
+		else
+		{
+			BSS926X2K = false;
+		}
+		///////////////Red lights
+		//////////////9
+		if (BSS926X1X)
+		{
+			BSS926X2L = true;
+		}
+		else
+		{
+			BSS926X2J = false;
+		}
+		///////////////Red lights
+		//////////////10
+		if (BSS926X1Z)
+		{
+			BSS926X2M = true;
+		}
+		else
+		{
+			BSS926X2M = false;
+		}
+		///////////////Red lights
+		//////////////11
+		if (BSS926X1b)
+		{
+			BSS926X2N = true;
+		}
+		else
+		{
+			BSS926X2N = false;
+		}
+		///////////////Red lights
+		//////////////12
+		if (BSS926X1f)
+		{
+			BSS926X2R = true;
+		}
+		else
+		{
+			BSS926X2R = false;
+		}
+		///////////////Red lights
+		//////////////13
+		if (BSS926X1h)
+		{
+			BSS926X2S = true;
+		}
+		else
+		{
+			BSS926X2S = false;
+		}
+		///////////////Red lights
+		//////////////14
+		if (BSS926X1j)
+		{
+			BSS926X2T = true;
+		}
+		else
+		{
+			BSS926X2T = false;
+		}
+		///////////////Red lights
+		//////////////15
+		if (BSS926X1n)
+		{
+			BSS926X2U = true;
+		}
+		else
+		{
+			BSS926X2U = false;
+		}
+		///////////////Red lights
+		//////////////16
+		if (BSS926X1p)
+		{
+			BSS926X2V = true;
+		}
+		else
+		{
+			BSS926X2V = false;
+		}
+		///////////////Red lights
+		//////////////17
+		if (BSS926X1r)
+		{
+			BSS926X2W = true;
+		}
+		else
+		{
+			BSS926X2W = false;
+		}
+		///////////////Red lights
+		//////////////18
+		if (BSS926X1z)
+		{
+			BSS926X2a = true;
+		}
+		else
+		{
+			BSS926X2a = false;
+		}
+		///////////////Red lights
+		//////////////19
+		if (BSS926X1DD)
+		{
+			BSS926X2c = true;
+		}
+		else
+		{
+			BSS926X2c = false;
+		}
+		///////////////Red lights
+		//////////////20
+		if (BSS926X1HH)
+		{
+			BSS926X2e = true;
+		}
+		else
+		{
+			BSS926X2e = false;
+		}
+		///////////////Red lights
+		//////////////21
+		if (BSS926X1KK)
+		{
+			BSS926X2f = true;
+		}
+		else
+		{
+			BSS926X2f = false;
+		}
+		///////////////Red lights
+		//////////////22
+		if (BSS926X1MM)
+		{
+			BSS926X2g = true;
+		}
+		else
+		{
+			BSS926X2g = false;
+		}
+		///////////////Red lights
+		//////////////23
+		if (BSS926X3A)
+		{
+			BSS926X2h = true;
+		}
+		else
+		{
+			BSS926X2h = false;
+		}
+		///////////////Red lights
+		//////////////24
+		if (BSS926X3C)
+		{
+			BSS926X2i = true;
+		}
+		else
+		{
+			BSS926X2i = false;
+		}
+		///////////////Red lights
+		//////////////25
+		if (BSS926X3E)
+		{
+			BSS926X2j = true;
+		}
+		else
+		{
+			BSS926X2j = false;
+		}
+		///////////////Red lights
+		//////////////26
+		if (BSS926X3H)
+		{
+			BSS926X2k = true;
+		}
+		else
+		{
+			BSS926X2k = false;
+		}
+		///////////////Red lights
+		//////////////27
+		if (BSS926X3J)
+		{
+			BSS926X2m = true;
+		}
+		else
+		{
+			BSS926X2m = false;
+		}
+		///////////////Red lights
+		//////////////28
+		if (BSS926X3L)
+		{
+			BSS926X2n = true;
+		}
+		else
+		{
+			BSS926X2n = false;
+		}
+		///////////////Red lights
+		//////////////29
+		if (BSS926X3N)
+		{
+			BSS926X2p = true;
+		}
+		else
+		{
+			BSS926X2p = false;
+		}
+		///////////////Red lights
+		//////////////30
+		if (BSS926X3R)
+		{
+			BSS926X2q = true;
+		}
+		else
+		{
+			BSS926X2q = false;
+		}
+		///////////////Red lights
+		//////////////31
+		if (BSS926X3T)
+		{
+			BSS926X2r = true;
+		}
+		else
+		{
+			BSS926X2r = false;
 		}
 
-		if (PVkCSOKLLy_sum == 0)
+		if (PVkCSOKSHOy_sum == 0)
 		{
-			PCSOKLL = false;
+			PCSOZHSHO = false;
 		}
 		else
 		{
-			PCSOKLL = true;
+			PCSOZHSHO = true;
 		}
 
 		if (S3_03364 == 2)
 		{
-			PCSOKLL = true;
+			PCSOZHSHO = true;
 		}
-		///////////////Green and White lights
-		//////////////1
-		if (BSS811X3A)
+		if (PRBSS_926)
 		{
-			BSS811X2h = true;
+			BSS926X2B = BSS926X2D = BSS926X2p = BSS926X2Z = BSS926X2b = BSS926X2d = BSS926X2A =
+				BSS926X2C = BSS926X2E = BSS926X2F = BSS926X2G = BSS926X2H = BSS926X2J =
+				BSS926X2j = BSS926X2k = BSS926X2K = BSS926X2L = BSS926X2M = BSS926X2N =
+				BSS926X2R = BSS926X2S = BSS926X2T = BSS926X2U = BSS926X2V = BSS926X2W =
+				BSS926X2a = BSS926X2c = BSS926X2e = BSS926X2f = BSS926X2g = BSS926X2h =
+				BSS926X2i = BSS926X2m = BSS926X2n = BSS926X2p = BSS926X2q = BSS926X2r = true;
 		}
-		else
-		{
-			BSS811X2h = false;
-		}
-		///////////////Green and White lights
-		//////////////2
-		if (BSS811X3C)
-		{
-			BSS811X2l = true;
-		}
-		else
-		{
-			BSS811X2l = false;
-		}
-		///////////////Green and White lights
-		//////////////3
-		if (BSS811X3D)
-		{
-			BSS811X2j = true;
-		}
-		else
-		{
-			BSS811X2j = false;
-		}
-		///////////////Green and White lights
-		//////////////4
-		if (BSS811X3E)
-		{
-			BSS811X2k = true;
-		}
-		else
-		{
-			BSS811X2k = false;
-		}
-		///////////////Green and White lights
-		//////////////5
-		if (NEYTRAL_kren)
-		{
-			BSS811X2p = true;
-		}
-		else
-		{
-			BSS811X2p = false;
-		}
-		///////////////Green and White lights
-		//////////////6
-		if (NEYTRAL_kurs)
-		{
-			BSS811X2q = true;
-		}
-		else
-		{
-			BSS811X2q = false;
-		}
-
-		
 	}
 	else
 	{
-	PRBSS_926, PRBSS_837, PRBSS_913, PVkCSOZHSHOx1, PVkCSOZHSHOx2, PVkCSOZHSHOx3, PVkCSOZHSHOx4, PVkCSOZHSHOx5, PVkCSOZHSHOx6
-		, PVkCSOZHSHOx7, PVkCSOZHLLx8, PVkCSOZHLLx9, PVkCSOZHLLx10, PVkCSOZHLLx11, PVkCSOZHLLx12, PVkCSOZHLLx13, PVkCSOZHLLx14, PVkCSOZHLLx15,
-		PVkCSOZHLLx16, PVkCSOZHLLx17, PVkCSOZHLLx18, PVkCSOZHLLx19, PVkCSOZHLLx20, PVkCSOZHLLx21, PVkCSOZHLLx22, PVkCSOZHLLx23, PVkCSOZHLLx24
-		, PVkCSOZHLLx25, PVkCSOZHLLx26, PCSOZHSHO, PVkCSOKLLy1, PVkCSOKLLy2, PVkCSOKLLy3, PVkCSOKLLy4, PVkCSOKLLy5, PVkCSOKLLy6, PVkCSOKLLy7,
-		PCSOKLL, PKLSHO, BSS811x1, BSS811x2, BSS811y1, BSS811y2, BSS811z1, BSS811z2, BSS926X1C, BSS926X1G, BSS926X3G,
-		BSS926X3V, BSS926X1x, BSS926X1BB, BSS811X1b, BSS811X1d, BSS811X1f, BSS811X1DD, UPOR_DZ_TANGAZH_L, ZAKRILKI_PARIRUY, BSS811X1Y,
-		DZ_OTKL_DZ_TANGAZH, BSS811X1h, BSS811X1j, BSS811X1p, BSS811X1t, BSS811X1v, BSS811X1x, BSS926X1FF, BSS811X1z, SUR_GS1_OTKL, SUR_GS2_OTKL,
-		SUR_GS3_OTKL, SUR_GS4_OTKL, BSS926X2B, BSS926X2D, BSS926X2p, BSS826X2s, BSS926X1x, BSS926X2b, BSS926X2d, BSS811X2N, BSS811X2P,
-		BSS811X2R, BSS811X2c, BSS811X2n, BSS811X2m, BSS811X2L, BSS811X2r, BSS811X2S, BSS811X2T, BSS811X2V, BSS811X2X, BSS811X2Y, BSS811X2Z,
-		BSS811X2a, BSS811X2d, BSS811X2e, BSS811X2f, BSS811X2g,BSS811X1E, BSS811X2C, BSS811X1G, BSS811X2D, BSS811X1J, BSS811X2E, BSS811X1L,
-		BSS811X2F, BSS811X1n, BSS811X2U, BSS811X1r, BSS811X2W, BSS811X1BB, BSS811X2b,BSS811X3A, BSS811X3C, BSS811X3D, BSS811X3E,
-		NEYTRAL_kren, NEYTRAL_kurs, BSS811X2h, BSS811X2l, BSS811X2j, BSS811X2k, BSS811X2p, BSS811X2q = false;
+		PRBSS_926, PRBSS_837, PRBSS_913, PVkCSOZHSHOx1, PVkCSOZHSHOx2, PVkCSOZHSHOx3, PVkCSOZHSHOx4,
+			PVkCSOZHSHOx5, PVkCSOZHSHOx6, PVkCSOZHSHOx7, PVkCSOZHLLx8,  PCSOZHSHO, PVkCSOKSHOy1, 
+			PVkCSOKSHOy2, PVkCSOKSHOy3, PVkCSOKSHOy4, PVkCSOKSHOy5, PVkCSOKSHOy6, PVkCSOKSHOy7,
+			PCSOZHSHO, PKLSHO, BSS926X1C, BSS926X1G, BSS926X3G, BSS926X3V, BSS926X1x,
+			BSS926X1BB, BSS926X1FF,BSS926X2B, BSS926X2D, BSS926X2p, BSS826X2s, BSS926X1x,
+			BSS926X2b, BSS926X2d, BSS926X1A, BSS926X2A, BSS926X1E, BSS926X2C, BSS926X1J, BSS926X2E, BSS926X1L,
+			BSS926X2F, BSS926X1N, BSS926X2G, BSS926X1R, BSS926X2H, BSS926X1T, BSS926X2J = false;
 	}
-	
+
 	if (PRBSS_837)
 	{
 		///////////////Yellow lights_2
@@ -467,7 +627,6 @@ void logic()
 			PCSOZHSHO = true;
 		}
 
-
 		///////////////Red lights_2
 		//////////////1
 		if (BSS812X5h)
@@ -536,16 +695,16 @@ void logic()
 
 		if (PVkCSOKLLm_sum == 0)
 		{
-			PCSOKLL = false;
+			PCSOZHSHO = false;
 		}
 		else
 		{
-			PCSOKLL = true;
+			PCSOZHSHO = true;
 		}
 
 		if (S3_03364 == 2)
 		{
-			PCSOKLL = true;
+			PCSOZHSHO = true;
 		}
 
 		///////////////Green and White lights 2
@@ -778,15 +937,14 @@ void logic()
 		{
 			BSS811X6f = false;
 		}
-		
+
 		if (PRBSS_926)
 		{
 			BSS811x2 = BSS926X2B = BSS926X2D = BSS926X2p = BSS826X2s = BSS926X1x = BSS926X2b = BSS926X2d = BSS811X2N = BSS811X2P =
 				BSS811X2R = BSS811X2c = BSS811X2n = BSS811X2m = BSS811X2L = BSS811X2r = BSS811X2S = BSS811X2T = BSS811X2V =
-				BSS811X2X = BSS811X2Y = BSS811X2Z = BSS811X2a = BSS811X2d = BSS811X2e = BSS811X2f = BSS811X2g = BSS811X2C =
-				BSS811X2D = BSS811X2E = BSS811X2F = BSS811X2U = BSS811X2W = BSS811X2b = BSS811X2h = BSS811X2l = BSS811X2j =
+				BSS811X2X = BSS811X2Y = BSS811X2Z = BSS811X2a = BSS811X2d = BSS811X2e = BSS811X2f = BSS811X2g = BSS926X2A =
+				BSS926X2C = BSS926X2E = BSS926X2F = BSS926X2G = BSS926X2H = BSS926X2J = BSS811X2h = BSS811X2l = BSS811X2j =
 				BSS811X2k = BSS811X2p = BSS811X2q = true;
-
 		}
 
 		if (PRBSS_837)
@@ -795,22 +953,18 @@ void logic()
 				= BSS811X6L = BSS811X6M = BSS811X6N = BSS811X6X = BSS811X6W = BSS811X6Y = BSS811X6a = BSS811X6b = BSS811X6c = BSS811X6d
 				= BSS811X6p = BSS811X6r = BSS811X6f = BSS812X6T = BSS812X6V = BSS812X6e = BSS812X6j = BSS812X6k = BSS812X6m = BSS812X6q =
 				BSS812X6n = BSS812X6S = BSS812X6U = BSS812X6g = BSS812X6h = BSS812X6i = true;
-
 		}
-
-}
+	}
 	else
 	{
-	BSS812X5j = BSS812X5p = BSS812X5HH = BSS812X5h = BSS812X5n = BSS812X5B = BSS812X5D = BSS812X5E =
-		BSS812X5G = BSS812X5J = BSS812X5L = BSS812X5N = BSS812X5R = BSS812X5T = BSS812X5V = BSS812X5X =
-		BSS812X5Z = BSS812X5d = BSS812X5t = BSS812X5r = BSS812X5x = BSS812X5z = BSS812X5BB = BSS812X5DD =
-		BSS812X5FF = BSS812X5KK = BSS812X6T = BSS812X6V = BSS812X6e = BSS812X6j = BSS812X6k = BSS812X6m =
-		BSS812X6q = BSS812X6n = BSS812X6S = BSS812X6U = BSS812X6g = BSS812X6h = BSS812X6i = BSS811X6A = BSS811X6B
-		= BSS811X6C = BSS811X6E = BSS811X6F = BSS811X6G = BSS811X6H = BSS811X6J = BSS811X6K = BSS811X6L = BSS811X6M
-		= BSS811X6N = BSS811X6X = BSS811X6W = BSS811X6Y = BSS811X6a = BSS811X6b = BSS811X6c = BSS811X6d = BSS811X6p
-		= BSS811X6r = BSS811X6f = false;
-
-
+		BSS812X5j = BSS812X5p = BSS812X5HH = BSS812X5h = BSS812X5n = BSS812X5B = BSS812X5D = BSS812X5E =
+			BSS812X5G = BSS812X5J = BSS812X5L = BSS812X5N = BSS812X5R = BSS812X5T = BSS812X5V = BSS812X5X =
+			BSS812X5Z = BSS812X5d = BSS812X5t = BSS812X5r = BSS812X5x = BSS812X5z = BSS812X5BB = BSS812X5DD =
+			BSS812X5FF = BSS812X5KK = BSS812X6T = BSS812X6V = BSS812X6e = BSS812X6j = BSS812X6k = BSS812X6m =
+			BSS812X6q = BSS812X6n = BSS812X6S = BSS812X6U = BSS812X6g = BSS812X6h = BSS812X6i = BSS811X6A = BSS811X6B
+			= BSS811X6C = BSS811X6E = BSS811X6F = BSS811X6G = BSS811X6H = BSS811X6J = BSS811X6K = BSS811X6L = BSS811X6M
+			= BSS811X6N = BSS811X6X = BSS811X6W = BSS811X6Y = BSS811X6a = BSS811X6b = BSS811X6c = BSS811X6d = BSS811X6p
+			= BSS811X6r = BSS811X6f = false;
 	}
 
 	if (PRBSS_913)
@@ -819,7 +973,7 @@ void logic()
 		//////////////1
 		if (BSS913X1C)
 		{
-			BSS913X2B= true;
+			BSS913X2B = true;
 			PVkCSOZHLLk1 = true;
 			PVkCSOZHLLk_sum++;
 		}
@@ -1172,13 +1326,13 @@ void logic()
 		//////////////1
 		if (BSS913X1A)
 		{
-			BSS913X2A= true;
+			BSS913X2A = true;
 			PVkCSOKLLp1 = true;
 			PVkCSOKLLp_sum++;
 		}
 		else
 		{
-			BSS913X2A= false;
+			BSS913X2A = false;
 			PVkCSOKLLp1 = false;
 		}
 		///////////////Red lights_3
@@ -1223,16 +1377,16 @@ void logic()
 
 		if (PVkCSOKLLp_sum == 0)
 		{
-			PCSOKLL = false;
+			PCSOZHSHO = false;
 		}
 		else
 		{
-			PCSOKLL = true;
+			PCSOZHSHO = true;
 		}
 
 		if (S3_03364 == 2)
 		{
-			PCSOKLL = true;
+			PCSOZHSHO = true;
 		}
 
 		///////////////Green and White lights_3
@@ -1286,28 +1440,25 @@ void logic()
 			BSS913X2p = false;
 		}
 
-		if(PRBSS_913)
+		if (PRBSS_913)
 		{
 			BSS913X2B = BSS913X2C = BSS913X2D = BSS913X2E = BSS913X2F = BSS913X2G = BSS913X2J = BSS913X2K = BSS913X2L = BSS913X2M =
 				BSS913X2N = BSS913X2P = BSS913X2S = BSS913X2T = BSS913X2U = BSS913X2V = BSS913X2W = BSS913X2X = BSS913X2Z =
 				BSS913X2a = BSS913X2b = BSS913X2c = BSS913X2d = BSS913X2e = BSS913X2j = BSS913X2k = BSS913X2A = BSS913X2H =
 				BSS913X2R = BSS913X2Y = BSS913X2h = BSS913X2i = BSS913X2m = BSS913X2n = BSS913X2p = true;
-
-			
 		}
 	}
 	else
 	{
-	BSS913X2B = BSS913X2C = BSS913X2D = BSS913X2E = BSS913X2F = BSS913X2G = BSS913X2J = BSS913X2K = BSS913X2L = BSS913X2M = 
-		BSS913X2N = BSS913X2P = BSS913X2S = BSS913X2T = BSS913X2U = BSS913X2V = BSS913X2W = BSS913X2X = BSS913X2Z = 
-		BSS913X2a = BSS913X2b = BSS913X2c = BSS913X2d = BSS913X2e = BSS913X2j = BSS913X2k = BSS913X2A = BSS913X2H = 
-		BSS913X2R = BSS913X2Y = BSS913X2h = BSS913X2i = BSS913X2m = BSS913X2n = BSS913X2p = false;
+		BSS913X2B = BSS913X2C = BSS913X2D = BSS913X2E = BSS913X2F = BSS913X2G = BSS913X2J = BSS913X2K = BSS913X2L = BSS913X2M =
+			BSS913X2N = BSS913X2P = BSS913X2S = BSS913X2T = BSS913X2U = BSS913X2V = BSS913X2W = BSS913X2X = BSS913X2Z =
+			BSS913X2a = BSS913X2b = BSS913X2c = BSS913X2d = BSS913X2e = BSS913X2j = BSS913X2k = BSS913X2A = BSS913X2H =
+			BSS913X2R = BSS913X2Y = BSS913X2h = BSS913X2i = BSS913X2m = BSS913X2n = BSS913X2p = false;
 
-	PVkCSOZHLLk1 = PVkCSOZHLLk2 = PVkCSOZHLLk3 = PVkCSOZHLLk4 = PVkCSOZHLLk5 = PVkCSOZHLLk6 = PVkCSOZHLLk7 = PVkCSOZHLLk8 = PVkCSOZHLLk9 = PVkCSOZHLLk10 =
-		PVkCSOZHLLk11 = PVkCSOZHLLk12 = PVkCSOZHLLk13 = PVkCSOZHLLk14 = PVkCSOZHLLk15 = PVkCSOZHLLk16 = PVkCSOZHLLk17 = PVkCSOZHLLk18 = PVkCSOZHLLk19 = PVkCSOZHLLk20 =
-		PVkCSOZHLLk21 = PVkCSOZHLLk22 = PVkCSOZHLLk23 = PVkCSOZHLLk24 = PVkCSOZHLLk25 = PVkCSOZHLLk26 =
-		PVkCSOKLLm1 = PVkCSOKLLm2 = PVkCSOKLLm3 = PVkCSOKLLm4 = PVkCSOKLLm5 =
-		PVkCSOKLLp1 = PVkCSOKLLp2 = PVkCSOKLLp3 = PVkCSOKLLp4 = false;
-
+		PVkCSOZHLLk1 = PVkCSOZHLLk2 = PVkCSOZHLLk3 = PVkCSOZHLLk4 = PVkCSOZHLLk5 = PVkCSOZHLLk6 = PVkCSOZHLLk7 = PVkCSOZHLLk8 = PVkCSOZHLLk9 = PVkCSOZHLLk10 =
+			PVkCSOZHLLk11 = PVkCSOZHLLk12 = PVkCSOZHLLk13 = PVkCSOZHLLk14 = PVkCSOZHLLk15 = PVkCSOZHLLk16 = PVkCSOZHLLk17 = PVkCSOZHLLk18 = PVkCSOZHLLk19 = PVkCSOZHLLk20 =
+			PVkCSOZHLLk21 = PVkCSOZHLLk22 = PVkCSOZHLLk23 = PVkCSOZHLLk24 = PVkCSOZHLLk25 = PVkCSOZHLLk26 =
+			PVkCSOKLLm1 = PVkCSOKLLm2 = PVkCSOKLLm3 = PVkCSOKLLm4 = PVkCSOKLLm5 =
+			PVkCSOKLLp1 = PVkCSOKLLp2 = PVkCSOKLLp3 = PVkCSOKLLp4 = false;
 	}
 }
