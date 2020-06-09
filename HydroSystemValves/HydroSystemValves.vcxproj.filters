@@ -18,12 +18,12 @@
     <ClCompile Include="HydroSystemValves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Logic.cpp">
+    <ClCompile Include="HydroValvesLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="HydroValvesHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

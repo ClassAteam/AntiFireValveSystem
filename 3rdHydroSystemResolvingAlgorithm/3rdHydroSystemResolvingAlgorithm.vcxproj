@@ -148,10 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="3rdHydroSystemResolvingAlgorithm.cpp" />
-    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="3rdHydroSystemLogic.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="3rdHydroSystemHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

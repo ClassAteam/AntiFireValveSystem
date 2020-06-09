@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="AntiFireSystemLogic.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="AntiFireSystemHeader.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Values.txt" />

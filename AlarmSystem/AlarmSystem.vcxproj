@@ -148,10 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Test.cpp" />
-    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="AlarmSystemFireLogic.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="AlarmSystemHeader.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Values.txt" />

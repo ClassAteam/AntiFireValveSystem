@@ -18,12 +18,12 @@
     <ClCompile Include="4HydroSystems%27s Algorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Logic.cpp">
+    <ClCompile Include="4HydroSystemLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="4thHydrpSystemHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

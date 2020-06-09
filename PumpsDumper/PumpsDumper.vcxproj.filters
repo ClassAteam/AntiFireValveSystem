@@ -18,12 +18,12 @@
     <ClCompile Include="PumpsDumper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Logic.cpp">
+    <ClCompile Include="PumpsDumperLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="PumpsDumperHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Logic.cpp">
+    <ClCompile Include="TZHTAlarmLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="TZHTAlarmHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

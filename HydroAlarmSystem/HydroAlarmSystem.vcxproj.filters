@@ -18,12 +18,12 @@
     <ClCompile Include="HydroAlarmSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Logic.cpp">
+    <ClCompile Include="HydroAlarmLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="HydroAlarmHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
