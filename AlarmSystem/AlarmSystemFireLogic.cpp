@@ -115,7 +115,7 @@ void logic()
 		BSS913X3G = true;
 	}
 	else BSS913X3G = false;
-	///////////////////////////////////BSS811X1B BSS838X7G toggle;
+	///////////////////////////////////BSS811X1B  toggle;
 	if (F72 == true && S10 == true)
 		PKO = true;
 	else PKO = false;
@@ -123,12 +123,10 @@ void logic()
 	if (Ushal >= 18.0 && K24 == 1)
 	{
 		BSS811X1B = true;
-		BSS838X7G = true;
 	}
 	else
 	{
 		BSS811X1B = false;
-		BSS838X7G = false;
 	}
 
 	if ((Ushal >= 18) && F45 == true)

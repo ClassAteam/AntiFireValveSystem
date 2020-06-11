@@ -22,6 +22,7 @@
     <ClInclude Include="Alarm2ndNaviHeader.h" />
     <ClInclude Include="AlarmNaviHeader.h" />
     <ClInclude Include="AlarmRightPilotHeader.h" />
+    <ClInclude Include="BlinkingAlgorithmHeader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlinkingAlgorithm.cpp" />

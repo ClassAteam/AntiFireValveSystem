@@ -1353,17 +1353,7 @@ void logic()
 		}
 		///////////////Red lights_3
 		//////////////6
-		if (BSS838X7G)
-		{
-			BSS838X6k = true;
-			PVkCSOKSHOp6 = true;
-			PVkCSOKSHOp_sum++;
-		}
-		else
-		{
-			BSS838X6k = false;
-			PVkCSOKSHOp6 = false;
-		}
+		
 		///////////////Red lights_3
 		//////////////7
 		if (BSS838X7L)

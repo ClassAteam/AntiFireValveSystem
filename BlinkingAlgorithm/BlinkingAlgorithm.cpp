@@ -1,6 +1,4 @@
-#include  "Alarm2ndNaviHeader.h"
-#include  "AlarmNaviHeader.h"
-#include  "AlarmRightPilotHeader.h"
+#include "BlinkingAlgorithmHeader.h"
 
 int BlinkingLogic()
 {
@@ -14,7 +12,7 @@ int BlinkingLogic()
 		BSS838X6k = true;
 	}
 
-	if (BSS939X1B)
+	if (BSS939X1N)
 	{
 		BSS939X2A = true;
 	}
@@ -24,8 +22,35 @@ int BlinkingLogic()
 		BSS824X2R = true;
 	}
 
-	if(BSS824X1MM)
+	if (BSS824X1MM)
+	{
+		BSS824X2f = true;
+	}
 
+	if (BSS824X3C)
+	{
+		BSS824X2h = true;
+	}
+
+	if (BSS825X5J)
+	{
+		BSS825X6E = true;
+	}
+	
+	if (BSS825X5BB)
+	{
+		BSS825X6Y = true;
+	}
+
+	if (BSS825X5DD)
+	{
+		BSS825X6a = true;
+	}
+
+	if (BSS926X1t)
+	{
+		BSS926X2U = true;
+	}
 
 
 

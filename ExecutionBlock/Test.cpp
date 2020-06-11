@@ -18,29 +18,29 @@ void logic();
 int printvalues()
 {
 	std::cout.setf(std::ios::right);
-	std::cout <<  PKO << "=" << "PKO" <<std::endl<<  PO1och << "=" << "PO1och" << std::endl <<  K24 << "=" << "K24" << std::endl
-		<<  K50 << "=" << "K50" << std::endl <<  K51 << "=" << "K51" << std::endl <<  K53 << "=" << "K53" << std::endl
-		<<  K54 << "=" << "K54" << std::endl <<  K57 << "=" << "K57" << std::endl <<  K58 << "=" << "K58" << std::endl
-		<<  K60 << "=" << "K60" << std::endl <<  K61 << "=" << "K61" << std::endl <<  K80 << "=" << "K80" << std::endl
-		<<  F11 << "=" << "F11" << std::endl <<  F25 << "=" << "F25" << std::endl <<  F35 << "=" << "F35" << std::endl
-		<< F45 << "=" << "F45" << std::endl <<  F55 << "=" << "F55" << std::endl <<  F65 << "=" << "F65" << std::endl
-		<<  F72 << "=" << "F72" << std::endl <<  F132 << "=" << "F132" << std::endl<< F91 << "=" << "F91" << std::endl
-		<<  F101 << "=" << "F101" << std::endl <<  F111 << "=" << "F111" << std::endl <<  F121 << "=" << "F121" << std::endl
-		<<  F181 << "=" << "F181" << std::endl <<  PW1och_o << "=" << "PW1och_o" << std::endl <<  PW2och << "=" << "PW2och" << std::endl
-		<<  PW3och << "=" << "PW3och" << std::endl <<  P2OBLOP << "=" << "P2OBLOP" <<std::endl<<  PSA10_1 << "=" << "PSA10_1" << std::endl
-		<<  PSA10_2 << "=" << "PSA10_2" << std::endl <<  PSA19_1 << "=" << "PSA19_1" << std::endl <<  PSA19_2 << "=" << "PSA19_2" << std::endl
-		<<  Ushal << "=" << "Ushal" << std::endl <<  Ushap << "=" << "Ushap" << std::endl<<  S10 << "=" << "S10" << std::endl
-		<<  PF11 << "=" << "PF11" << std::endl <<  PF9 << "=" << "PF9" << std::endl <<  LzhSrabSigPrg1dv << "=" << "LzhSrabSigPrg1dv" << std::endl
-		<< LzhSrabSigPrg2dv << "=" << "LzhSrabSigPrg2dv" << std::endl <<  LzhSrabSigPrg3dv << "=" << "LzhSrabSigPrg3dv" << std::endl
-		<<  LzhSrabSigPrg4dv << "=" << "LzhSrabSigPrg4dv" << std::endl <<  BSS811X1n << "=" << "BSS811X1n" << std::endl
-		<< BSS811X1r << "=" << "BSS811X1r" << std::endl << BSS812X5h << "=" << "BSS812X5h" << std::endl <<  BSS812X5n << "=" << "BSS812X5n" << std::endl
-		<<  BSS811X1x << "=" << "BSS811X1x" << std::endl <<  BSS811X1z << "=" << "BSS811X1z" << std::endl
-		<< BSS913X3E << "=" << "BSS913X3E" << std::endl << BSS913X3G << "=" << "BSS913X3G" << std::endl <<  BSS811X1B << "=" << "BSS811X1B" << std::endl
-		<<  BSS838X7G << "=" << "BSS838X7G" << std::endl <<  BSS811X1VV << "=" << "BSS811X1VV" << std::endl <<  BSS838X7C << "=" << "BSS838X7C" << std::endl
-		<< BSS913X3J << "=" << "BSS913X3J" << std::endl <<  BSS926X1F << "=" << "BSS926X1F" << std::endl <<  BSS913X3L << "=" << "BSS913X3L" << std::endl
-		<<  BSS926X1h << "=" << "BSS926X1h" << std::endl<<  BSS913X3N << "=" << "BSS913X3N" << std::endl <<  BSS926X1j << "=" << "BSS926X1j" << std::endl
-		<<  BSS811X1v << "=" << "BSS811X1v" << std::endl << BSS811X1p << "=" << "BSS811X1p" << std::endl <<  BSS811X1t << "=" << "BSS811X1t" << std::endl
-		<<  BSS812X5j << "=" << "BSS812X5j" << std::endl <<  BSS812X5p << "=" << "BSS812X5p" <<std::endl;
+	std::cout << PKO << "=" << "PKO" << std::endl << PO1och << "=" << "PO1och" << std::endl << K24 << "=" << "K24" << std::endl
+		<< K50 << "=" << "K50" << std::endl << K51 << "=" << "K51" << std::endl << K53 << "=" << "K53" << std::endl
+		<< K54 << "=" << "K54" << std::endl << K57 << "=" << "K57" << std::endl << K58 << "=" << "K58" << std::endl
+		<< K60 << "=" << "K60" << std::endl << K61 << "=" << "K61" << std::endl << K80 << "=" << "K80" << std::endl
+		<< F11 << "=" << "F11" << std::endl << F25 << "=" << "F25" << std::endl << F35 << "=" << "F35" << std::endl
+		<< F45 << "=" << "F45" << std::endl << F55 << "=" << "F55" << std::endl << F65 << "=" << "F65" << std::endl
+		<< F72 << "=" << "F72" << std::endl << F132 << "=" << "F132" << std::endl << F91 << "=" << "F91" << std::endl
+		<< F101 << "=" << "F101" << std::endl << F111 << "=" << "F111" << std::endl << F121 << "=" << "F121" << std::endl
+		<< F181 << "=" << "F181" << std::endl << PW1och_o << "=" << "PW1och_o" << std::endl << PW2och << "=" << "PW2och" << std::endl
+		<< PW3och << "=" << "PW3och" << std::endl << P2OBLOP << "=" << "P2OBLOP" << std::endl << PSA10_1 << "=" << "PSA10_1" << std::endl
+		<< PSA10_2 << "=" << "PSA10_2" << std::endl << PSA19_1 << "=" << "PSA19_1" << std::endl << PSA19_2 << "=" << "PSA19_2" << std::endl
+		<< Ushal << "=" << "Ushal" << std::endl << Ushap << "=" << "Ushap" << std::endl << S10 << "=" << "S10" << std::endl
+		<< PF11 << "=" << "PF11" << std::endl << PF9 << "=" << "PF9" << std::endl << LzhSrabSigPrg1dv << "=" << "LzhSrabSigPrg1dv" << std::endl
+		<< LzhSrabSigPrg2dv << "=" << "LzhSrabSigPrg2dv" << std::endl << LzhSrabSigPrg3dv << "=" << "LzhSrabSigPrg3dv" << std::endl
+		<< LzhSrabSigPrg4dv << "=" << "LzhSrabSigPrg4dv" << std::endl << BSS811X1n << "=" << "BSS811X1n" << std::endl
+		<< BSS811X1r << "=" << "BSS811X1r" << std::endl << BSS812X5h << "=" << "BSS812X5h" << std::endl << BSS812X5n << "=" << "BSS812X5n" << std::endl
+		<< BSS811X1x << "=" << "BSS811X1x" << std::endl << BSS811X1z << "=" << "BSS811X1z" << std::endl
+		<< BSS913X3E << "=" << "BSS913X3E" << std::endl << BSS913X3G << "=" << "BSS913X3G" << std::endl << BSS811X1B << "=" << "BSS811X1B" << std::endl
+		<< BSS838X7G << "=" << "BSS838X7G" << std::endl << BSS811X1VV << "=" << "BSS811X1VV" << std::endl << BSS838X7C << "=" << "BSS838X7C" << std::endl
+		<< BSS913X3J << "=" << "BSS913X3J" << std::endl << BSS926X1F << "=" << "BSS926X1F" << std::endl << BSS913X3L << "=" << "BSS913X3L" << std::endl
+		<< BSS926X1h << "=" << "BSS926X1h" << std::endl << BSS913X3N << "=" << "BSS913X3N" << std::endl << BSS926X1j << "=" << "BSS926X1j" << std::endl
+		<< BSS811X1v << "=" << "BSS811X1v" << std::endl << BSS811X1p << "=" << "BSS811X1p" << std::endl << BSS811X1t << "=" << "BSS811X1t" << std::endl
+		<< BSS812X5j << "=" << "BSS812X5j" << std::endl << BSS812X5p << "=" << "BSS812X5p" << std::endl;
 	return 0;
 };
 
@@ -49,8 +49,6 @@ int main()
 	std::vector<std::string> words;
 	std::ifstream file("Values.txt");
 	std::string word;
-
-
 
 	while (std::getline(file, word))
 	{
@@ -61,7 +59,6 @@ int main()
 			PKO = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
-
 		}
 		if (word == "PO1och")
 		{
@@ -299,7 +296,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			PSA10_2= stoi(word);
+			PSA10_2 = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -331,7 +328,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			Ushap= stod(word);
+			Ushap = stod(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -371,7 +368,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			LzhSrabSigPrg2dv = stoi(word); 
+			LzhSrabSigPrg2dv = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -387,7 +384,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			LzhSrabSigPrg4dv = stoi(word); 
+			LzhSrabSigPrg4dv = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -428,7 +425,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			BSS811X1x= stoi(word);
+			BSS811X1x = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -436,7 +433,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			BSS811X1z= stoi(word);
+			BSS811X1z = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -444,7 +441,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			BSS913X3E= stoi(word);
+			BSS913X3E = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -461,14 +458,6 @@ int main()
 			std::cout << word;
 			std::getline(file, word);
 			BSS811X1B = stoi(word);
-			std::cout << std::endl;
-			std::cout << word << std::endl;
-		}
-		if (word == "BSS838X7G")
-		{
-			std::cout << word;
-			std::getline(file, word);
-			BSS838X7G= stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -516,7 +505,7 @@ int main()
 		{
 			std::cout << word;
 			std::getline(file, word);
-			BSS926X1h= stoi(word);
+			BSS926X1h = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
@@ -576,7 +565,6 @@ int main()
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
-		
 	}
 	std::cout << std::endl;
 	logic();
