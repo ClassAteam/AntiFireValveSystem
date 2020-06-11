@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmergencyAlarmSystem2ndNavi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlinkingAlgorithm", "BlinkingAlgorithm\BlinkingAlgorithm.vcxproj", "{C5929EC9-6A32-42BB-9794-493AE4DF68DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MKAM(ARZMKA)", "MKAM(ARZMKA)\MKAM(ARZMKA).vcxproj", "{79DAD339-C7A0-4ACC-B17C-38B2D9848530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{C5929EC9-6A32-42BB-9794-493AE4DF68DE}.Release|x64.Build.0 = Release|x64
 		{C5929EC9-6A32-42BB-9794-493AE4DF68DE}.Release|x86.ActiveCfg = Release|Win32
 		{C5929EC9-6A32-42BB-9794-493AE4DF68DE}.Release|x86.Build.0 = Release|Win32
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Debug|x64.ActiveCfg = Debug|x64
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Debug|x64.Build.0 = Debug|x64
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Debug|x86.ActiveCfg = Debug|Win32
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Debug|x86.Build.0 = Debug|Win32
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Release|x64.ActiveCfg = Release|x64
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Release|x64.Build.0 = Release|x64
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Release|x86.ActiveCfg = Release|Win32
+		{79DAD339-C7A0-4ACC-B17C-38B2D9848530}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
