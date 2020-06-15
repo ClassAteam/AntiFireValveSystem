@@ -1,4 +1,4 @@
-#include "MKAMheader.h"
+#include "AntiFreezeSystemHeader.h"
 
 int MKAMlogic()
 {
@@ -78,34 +78,95 @@ int MKAMlogic()
 		{
 			F134_3020 = true;
 		}
-		if (tc1 < 480.0)
-		{
-			F134_3020 = true;
-		}
-		tc1 = 0;
 	}
+		else
+		{
+		tc1 = false;
+		}
 	if (PZ2)
 	{
 		tc2 = tc2 + tc;
-	if (tc1 < 20.0)
+	if (tc2 < 20.0)
 	{
 		F110_3020 = true;
 	}
-	if (tc1 < 460.0)
+	if (tc2 < 60.0)
+	{
+		F19_3020 = true;
+	}
+	if (tc2 < 140.0)
+	{
+		F110_3020 = true;
+	}
+	if (tc2 < 180.0)
+	{
+		F125_3020 = true;
+	}
+	if (tc2 < 260.0)
+	{
+		F110_3020 = true;
+	}
+	if (tc2 < 380.0)
+	{
+		F19_3020 = true;
+	}
+	if (tc2 < 420.0)
+	{
+		F125_3020 = true;
+	}
+	if (tc2 < 460.0)
 	{
 		F134_3020 = true;
 	}
-	if (tc1 < 460.0)
+
+	}
+	else
+	{
+		tc2 = false;
+	}
+
+	if (PZ3)
+	{
+		tc3 = tc3 + tc;
+
+	if (tc3 < 60.0)
+	{
+		F110_3020 = true;
+	}
+	if (tc3 < 180.0)
+	{
+		F19_3020 = true;
+	}
+	if (tc3 < 240.0)
+	{
+		F125_3020 = true;
+	}
+	if (tc3 < 300.0)
+	{
+		F110_3020 = true;
+	}
+	if (tc3 < 360.0)
 	{
 		F134_3020 = true;
 	}
-	if (tc1 < 460.0)
+	if (tc3 < 420.0)
 	{
-		F134_3020 = true;
+		F19_3020 = true;
 	}
-	if (tc1 < 460.0)
+	if (tc3 < 480.0)
 	{
-		F134_3020 = true;
+		F125_3020 = true;
 	}
+
 	}
+	else
+	{
+		tc3 = false;
+	}
+
+	
+
+
+
+
 }

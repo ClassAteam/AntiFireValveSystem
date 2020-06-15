@@ -19,16 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AntiFreezeSystemHeader.h" />
+    <ClCompile Include="Airintake.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MKAMalgorithm.cpp" />
+    <ClInclude Include="AntiFreezeSystemHeader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{79dad339-c7a0-4acc-b17c-38b2d9848530}</ProjectGuid>
-    <RootNamespace>MKAMARZMKA</RootNamespace>
+    <ProjectGuid>{bad4f83e-4c2e-40ce-976c-9019b544c5fe}</ProjectGuid>
+    <RootNamespace>AirIntake</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
