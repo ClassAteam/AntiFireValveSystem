@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MKAM(ARZMKA)", "MKAM(ARZMKA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AirIntake", "AirIntake\AirIntake.vcxproj", "{BAD4F83E-4C2E-40CE-976C-9019B544C5FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AirIntakeWarmup", "AirIntakeWarmup\AirIntakeWarmup.vcxproj", "{5E471988-538D-4BB3-BCC7-AA05B24FB63C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{BAD4F83E-4C2E-40CE-976C-9019B544C5FE}.Release|x64.Build.0 = Release|x64
 		{BAD4F83E-4C2E-40CE-976C-9019B544C5FE}.Release|x86.ActiveCfg = Release|Win32
 		{BAD4F83E-4C2E-40CE-976C-9019B544C5FE}.Release|x86.Build.0 = Release|Win32
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Debug|x64.ActiveCfg = Debug|x64
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Debug|x64.Build.0 = Debug|x64
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Debug|x86.Build.0 = Debug|Win32
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Release|x64.ActiveCfg = Release|x64
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Release|x64.Build.0 = Release|x64
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Release|x86.ActiveCfg = Release|Win32
+		{5E471988-538D-4BB3-BCC7-AA05B24FB63C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
