@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AirIntakeWarmup", "AirIntak
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PPDwarmup", "PPDwarmup\PPDwarmup.vcxproj", "{E4BEAACE-76F8-4A18-9FF5-A4453A6D1230}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindShieldsWarmup", "WindShieldsWarmup\WindShieldsWarmup.vcxproj", "{24C025ED-034D-4D3F-B224-9B5535D32ED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{E4BEAACE-76F8-4A18-9FF5-A4453A6D1230}.Release|x64.Build.0 = Release|x64
 		{E4BEAACE-76F8-4A18-9FF5-A4453A6D1230}.Release|x86.ActiveCfg = Release|Win32
 		{E4BEAACE-76F8-4A18-9FF5-A4453A6D1230}.Release|x86.Build.0 = Release|Win32
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Debug|x64.ActiveCfg = Debug|x64
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Debug|x64.Build.0 = Debug|x64
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Debug|x86.ActiveCfg = Debug|Win32
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Debug|x86.Build.0 = Debug|Win32
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Release|x64.ActiveCfg = Release|x64
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Release|x64.Build.0 = Release|x64
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Release|x86.ActiveCfg = Release|Win32
+		{24C025ED-034D-4D3F-B224-9B5535D32ED4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
