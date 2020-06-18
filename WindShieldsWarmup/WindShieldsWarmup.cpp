@@ -1,5 +1,4 @@
 #include "AntiFreezeSystemHeader.h"
-#include "WindShieldsWarmup.h"
 
 int WindShieldsLogic()
 {

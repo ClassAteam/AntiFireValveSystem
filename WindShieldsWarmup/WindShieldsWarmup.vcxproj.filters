@@ -23,8 +23,5 @@
     <ClInclude Include="AntiFreezeSystemHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WindShieldsWarmup.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
