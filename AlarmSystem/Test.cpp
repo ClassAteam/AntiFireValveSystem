@@ -4,6 +4,7 @@
 #include <vector>
 #include <iomanip>
 #include <ostream>
+#include "AlarmSystemHeader.h"
 
 bool PKO, PO1och, K24, K50, K51, K53, K54, K57, K58, K60, K61, K80;
 bool F11, F25, F35, F45, F55, F65, F72, F132, F91, F101, F111, F121, F181;
@@ -12,7 +13,7 @@ bool PSA10_1, PSA10_2, PSA19_1, PSA19_2;
 double Ushal, Ushap;
 int S10, PF11, PF9;
 bool LzhSrabSigPrg1dv, LzhSrabSigPrg2dv, LzhSrabSigPrg3dv, LzhSrabSigPrg4dv;
-bool BSS811X1n, BSS811X1r, BSS812X5h, BSS812X5n, BSS811X1x, BSS811X1z, BSS913X3E, BSS913X3G, BSS811X1B, BSS811X1VV, BSS838X7C, BSS913X3J, BSS926X1F
+bool BSS811X1n, BSS811X1r, BSS812X5h, BSS812X5n, BSS811X1x, BSS811X1z, BSS913X3E, BSS913X3G, BSS811X1B,BSS838X7N, BSS811X1VV, BSS838X7C, BSS913X3J, BSS926X1F
 , BSS913X3L, BSS926X1h, BSS913X3N, BSS926X1j, BSS811X1v, BSS811X1p, BSS811X1t, BSS812X5j, BSS812X5p;
 
 void logic();
@@ -38,7 +39,7 @@ int printvalues()
 		<< BSS811X1r << "=" << "BSS811X1r" << std::endl << BSS812X5h << "=" << "BSS812X5h" << std::endl << BSS812X5n << "=" << "BSS812X5n" << std::endl
 		<< BSS811X1x << "=" << "BSS811X1x" << std::endl << BSS811X1z << "=" << "BSS811X1z" << std::endl
 		<< BSS913X3E << "=" << "BSS913X3E" << std::endl << BSS913X3G << "=" << "BSS913X3G" << std::endl << BSS811X1B << "=" << "BSS811X1B" << std::endl
-		<< "=" << "BSS838X7G" << std::endl << BSS811X1VV << "=" << "BSS811X1VV" << std::endl << BSS838X7C << "=" << "BSS838X7C" << std::endl
+		<< BSS838X7N<< "=" << "BSS838X7N" << std::endl << BSS811X1VV << "=" << "BSS811X1VV" << std::endl << BSS838X7C << "=" << "BSS838X7C" << std::endl
 		<< BSS913X3J << "=" << "BSS913X3J" << std::endl << BSS926X1F << "=" << "BSS926X1F" << std::endl << BSS913X3L << "=" << "BSS913X3L" << std::endl
 		<< BSS926X1h << "=" << "BSS926X1h" << std::endl << BSS913X3N << "=" << "BSS913X3N" << std::endl << BSS926X1j << "=" << "BSS926X1j" << std::endl
 		<< BSS811X1v << "=" << "BSS811X1v" << std::endl << BSS811X1p << "=" << "BSS811X1p" << std::endl << BSS811X1t << "=" << "BSS811X1t" << std::endl
@@ -461,6 +462,14 @@ int main()
 			std::cout << word;
 			std::getline(file, word);
 			BSS811X1B = stoi(word);
+			std::cout << std::endl;
+			std::cout << word << std::endl;
+		}
+		if (word == "BSS838X7N")
+		{
+			std::cout << word;
+			std::getline(file, word);
+			BSS838X7N = stoi(word);
 			std::cout << std::endl;
 			std::cout << word << std::endl;
 		}
