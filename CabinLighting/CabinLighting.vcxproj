@@ -24,6 +24,7 @@
     <ProjectGuid>{a6b96334-efd7-45bb-bdbb-bf8c0fac6820}</ProjectGuid>
     <RootNamespace>CabinLighting</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CabinLighting_solidLighting</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

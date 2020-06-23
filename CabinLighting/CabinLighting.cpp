@@ -294,6 +294,69 @@ int CabinLightingLogic()
 		PK2PDSHNZO = false;
 	}
 
+	// PK1PBSHNZO, PK2LBSHOZO
+	//E1
+	if (PBUSTO4_4_2k == true)
+	{
+		UZOPBSHN1 = USASL_to_alpha(alpha_ra2a13);
+		PK1PBSHNZO = true;
+	}
+	else
+	{
+		UZOPBSHN1  = false;
+		PK1PBSHNZO = true;
+	}
 
+	// PK1PBSHNZO, PK2PBSHNZO
+	//E2
+	if (PBUSTO4_3_2k == true)
+	{
+		UZOPBSHN2 = USASL_to_alpha(alpha_ra2a13);
+		PK2PBSHNZO = true;
+	}
+	else
+	{
+		UZOPBSHN2  = false;
+		PK2PBSHNZO = true;
+	}
+
+	// PSSD37RKL, PSSD37RKSH
+	//F1
+	if (Ush2l >= 18.0 && F1_3312 == true)
+	{
+		USOOKL = USASL_to_alpha(alpha_ra50a1);
+		PSSD37RKL = true;
+		USOOKSH = USASL_to_alpha(alpha_ra50a2);
+		PSSD37RKSH = true;
+	}
+	else
+	{
+		USOOKL = USASL_to_alpha(alpha_ra50a1);
+		PSSD37RKL = false;
+		USOOKSH = USASL_to_alpha(alpha_ra50a2);
+		PSSD37RKSH = false;
+	}
+
+	// PSSD42L
+	//G1
+	if (Ush1dpl >= 18.0 && F2_3312 == true)
+	{
+		PSSD42L = true;
+	}
+	else
+	{
+		PSSD42L = false;
+	}
+
+	// PSSD42P
+	//G2
+	if (Ush2dpp >= 18.0 && F3_3312 == true)
+	{
+		PSSD42P = true;
+	}
+	else
+	{
+		PSSD42P = false;
+	}
 
 }
