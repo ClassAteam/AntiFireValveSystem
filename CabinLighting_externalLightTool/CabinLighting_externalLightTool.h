@@ -1,0 +1,29 @@
+#pragma once
+
+int ExternLightToolLogic();
+
+bool
+PVFL, PVFP,
+PFPRLR, PFPRPR,
+PFPRLP, PFPRPP,
+PFSV_01LR, PFSV_01PR,
+PFSV_01LP, PFSV_01PP,
+K1_3340,
+K2_3340, K3_3340, K9_3340, K11_3340, K13_3340, K6_3340, K7_3340, K8_3340, K10_3340, K12_3340, K14_3340,
+K15_3340,
+F1_3340, F2_3340, F4_3340, F14_3340, F13_3340, F12_3340,
+PFSV_02L, PFSV_02P,
+BSS825X5V,
+BSS824X1E,
+SS824X1A;
+
+double
+Usha1, Usha2,
+Ush1l, Ush1p,
+Usho1l, Usho1p,
+alpha_fsv_ol, alpha_fsv_op,
+tc, Vpr,
+alpha_fazl, alpha_fazp;
+
+int
+S1_3340, S6_3340;
