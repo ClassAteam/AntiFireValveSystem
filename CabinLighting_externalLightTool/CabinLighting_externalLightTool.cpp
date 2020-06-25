@@ -226,24 +226,34 @@ int ExternLightToolLogic()
 			}
 
 			// PFSV_01 toggle
-			if (K13_3340 == true && alpha_fsv_op >= 1.0)
+			if (K14_3340 == true && alpha_fsv_op >= 1.0)
 			{
-				PFSV_01LR = true;
+				PFSV_01PR = true;
 			}
 
-			if (K9_3340 == false && K11_3340 == true)
+			if (K10_3340 == false && K12_3340 == true)
 			{
-				PFSV_01LP = true;
+				PFSV_01PP = true;
 			}
 
-			PFPRPR = PFPRPP = false;
-
+			K3_3340 = K8_3340 = false;
 		}
 	}
 	else
 	{
-	K1_3340 = K2_3340 = false;
-	K9_3340 = K11_3340 = K13_3340 = false;
+	K6_3340 = K7_3340 = false;
+	K10_3340 = K12_3340 = K14_3340 = false;
+	}
+
+	// K3, K8 toggle
+	if (Usha1 >= 18.0 && K_3230)
+	{
+		K3_3340 = true;
+	}
+
+	if (Usha2 >= 18.0 && K_3430)
+	{
+		K8_3340 = true;
 	}
 
 
