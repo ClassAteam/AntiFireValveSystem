@@ -16,15 +16,18 @@ F1_3340, F2_3340, F4_3340, F14_3340, F13_3340, F12_3340,
 PFSV_02L, PFSV_02P,
 BSS825X5V,
 BSS824X1E,
-SS824X1A;
+BSS824X1A;
 
 double
 Usha1, Usha2,
 Ush1l, Ush1p,
-Usho1l, Usho1p,
+Usho1l, Usho1p, Usho2p,
 alpha_fsv_ol, alpha_fsv_op,
 tc, Vpr,
 alpha_fazl, alpha_fazp;
 
 int
-S1_3340, S6_3340;
+S1_3340, S6_3340,
+S2_3340, S3_3340,
+S4_3340, S5_3340;
+

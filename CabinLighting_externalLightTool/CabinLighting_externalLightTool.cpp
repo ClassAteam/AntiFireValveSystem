@@ -256,5 +256,173 @@ int ExternLightToolLogic()
 		K8_3340 = true;
 	}
 
+	////////////////////////////////////////////////////////////////////////////////	
+	BSS825X5V = false;
 
+	// C
+	if (Usho1p >= 18.0) 
+	{
+
+		// alpha_fazl resolving 1
+		if (S3_3340 ==3 && K15_3340 == false)
+		{
+
+			alpha_fazl = (alpha_fazl - (25 / tc));
+
+			if (alpha_fazl <= 0.0)
+			{
+				alpha_fazl = 0.0;
+			}
+
+		}
+		// alpha_fazl resolivng 2
+		if (S3_3340 == 4 && K15_3340 == true)
+		{
+
+			alpha_fazl = (alpha_fazl + (25 / tc));
+
+			if (alpha_fazl >= 125.0)
+			{
+			alpha_fazl = 125.0;
+			}
+
+		}
+		//PFSV_02 toggle
+		if (K15_3340 == true && S2_3340 == 3)
+		{
+			PFSV_02L = true;
+		}
+		else
+		{
+			PFSV_02L = false;
+		}
+
+		// BSS825X5V toggle
+		if(alpha_fazl == 0.0)
+		{
+			BSS825X5V = true;
+		}
+		else
+		{
+			BSS825X5V = false;
+		}
+
+	}
+	else
+	{
+		PFSV_02L = false;
+	}
+
+	// D
+	if (Usho2p >= 18.0) 
+	{
+
+		// alpha_fazp resolving 1
+		if (S4_3340 ==3 && K15_3340 == false)
+		{
+
+			alpha_fazp = (alpha_fazp - (25 / tc));
+
+			if (alpha_fazp <= 0.0)
+			{
+				alpha_fazp = 0.0;
+			}
+
+		}
+		// alpha_fazp resolivng 2
+		if (S4_3340 == 4 && K15_3340 == true)
+		{
+
+			alpha_fazp = (alpha_fazp + (25 / tc));
+
+			if (alpha_fazp >= 125.0)
+			{
+			alpha_fazp = 125.0;
+			}
+
+		}
+		//PFSV_02 toggle
+		if (K15_3340 == true && S5_3340 == 3)
+		{
+			PFSV_02P = true;
+		}
+		else
+		{
+			PFSV_02P = false;
+		}
+
+		// BSS825X5V toggle
+		if(alpha_fazp == 0.0)
+		{
+			BSS825X5V = true;
+		}
+		else
+		{
+			BSS825X5V = false;
+		}
+
+	}
+	else
+	{
+		PFSV_02P = false;
+	}
+
+	// E1
+	// BSS824X1E toggle
+	if (Ush1l >= 18.0 && alpha_fsv_ol == true)
+	{
+		BSS824X1E = true;
+	}
+	else
+	{
+		BSS824X1E = false;
+	}
+
+	// E2
+	// BSS824X1E toggle
+	if (Ush1p >= 18.0 && alpha_fsv_op == true)
+	{
+		BSS824X1E = true;
+	}
+	else
+	{
+		BSS824X1E = false;
+	}
+
+	// F1
+	// BSS824X1A toggle 1
+	if (Ush1l >= 18.0)
+	{
+		if (PFPRLP == true && PFSV_01LP == true)
+		{
+			BSS824X1A = true;
+		}
+		else
+		{
+			BSS824X1A = false;
+		}
+	}
+	else
+	{
+			BSS824X1A = false;
+	}
+
+	// F2
+	// BSS824X1A toggle 2
+	if (Ush1p >= 18.0)
+	{
+		if (PFPRPP == true && PFSV_01PP == true)
+		{
+			BSS824X1A = true;
+		}
+		else
+		{
+			BSS824X1A = false;
+		}
+	}
+	else
+	{
+			BSS824X1A = false;
+	}
 }
+
