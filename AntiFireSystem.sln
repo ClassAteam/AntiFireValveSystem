@@ -55,6 +55,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CabinLighting_solidLighting
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CabinLighting_externalLightTool", "CabinLighting_externalLightTool\CabinLighting_externalLightTool.vcxproj", "{ABD27863-F906-46FB-98D0-C199A4EF2C30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CabinLitghting_NavigationLights", "CabinLitghting_NavigationLights\CabinLitghting_NavigationLights.vcxproj", "{03151371-E985-4D6A-B0A2-313E15D25FA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CabinLighting_FlashingBeacons", "CabinLighting_FlashinBeacons\CabinLighting_FlashinBeacons.vcxproj", "{42134DA0-4C4E-4CF6-BF19-D132A3582C77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CabinLighting_LandingGearLights", "CabinLighting_LandingGearLights\CabinLighting_LandingGearLights.vcxproj", "{42A00196-057C-46D7-9446-2262FC1373F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +277,30 @@ Global
 		{ABD27863-F906-46FB-98D0-C199A4EF2C30}.Release|x64.Build.0 = Release|x64
 		{ABD27863-F906-46FB-98D0-C199A4EF2C30}.Release|x86.ActiveCfg = Release|Win32
 		{ABD27863-F906-46FB-98D0-C199A4EF2C30}.Release|x86.Build.0 = Release|Win32
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Debug|x64.ActiveCfg = Debug|x64
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Debug|x64.Build.0 = Debug|x64
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Debug|x86.Build.0 = Debug|Win32
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Release|x64.ActiveCfg = Release|x64
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Release|x64.Build.0 = Release|x64
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Release|x86.ActiveCfg = Release|Win32
+		{03151371-E985-4D6A-B0A2-313E15D25FA8}.Release|x86.Build.0 = Release|Win32
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Debug|x64.ActiveCfg = Debug|x64
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Debug|x64.Build.0 = Debug|x64
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Debug|x86.ActiveCfg = Debug|Win32
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Debug|x86.Build.0 = Debug|Win32
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Release|x64.ActiveCfg = Release|x64
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Release|x64.Build.0 = Release|x64
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Release|x86.ActiveCfg = Release|Win32
+		{42134DA0-4C4E-4CF6-BF19-D132A3582C77}.Release|x86.Build.0 = Release|Win32
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Debug|x64.ActiveCfg = Debug|x64
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Debug|x64.Build.0 = Debug|x64
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Debug|x86.Build.0 = Debug|Win32
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Release|x64.ActiveCfg = Release|x64
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Release|x64.Build.0 = Release|x64
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Release|x86.ActiveCfg = Release|Win32
+		{42A00196-057C-46D7-9446-2262FC1373F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
