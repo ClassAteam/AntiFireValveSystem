@@ -1,5 +1,5 @@
-#include "LandingGear_PrimalRacksCards.h"
 #include "linear_algorithm.h"
+#include "LandingGear_PrimalRacksCards.h"
 
 int RacksCardsLogic()
 {
