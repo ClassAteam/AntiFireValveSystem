@@ -143,7 +143,7 @@
     <ClCompile Include="LandingGear_PrimalRacksCards.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LandingGear_PrimalRacksCars.h" />
+    <ClInclude Include="LandingGear_PrimalRacksCards.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
