@@ -1,0 +1,50 @@
+#pragma once
+
+int ending_switch_mech();
+
+bool
+P1OBLOP, P2OBLOP,
+P1OBPOP, P2OBPOP,
+PVPLOP, PUPLOP,
+PVPPOP, PUPPOP,
+PVPPEROP, PUPPEROP,
+K9_3230, K25_3230, K26_3230,
+K10_3230, K24_3230, K27_3230, K38_3230, K36_3230,
+K6_3230, K19_3230,
+
+int
+S42_3230, S43_3230,
+S42_3230, S45_3230,
+S13_3230, S14_3230,
+S15_3230, S16_3230,
+S33_3230, S17_3230,
+S4_3230, S5_3230,
+S51_3230, S52_3230,
+S6_3230, S7_3230,
+S37_3230, S22_3230,
+S53_3230, S54_3230,
+S8_3230, S18_3230, S19_3230,
+S9_3230, S26_3230, S48_3230,
+S10_3230, S20_3230, S21_3230,
+S11_3230, S28_3230, S29_3230,
+S24_3230, S12_3230,
+S22_3230, S40_3230,
+S23_3230, S41_3230,
+S19_3230, S35_3230,
+S27_3230, S39_3230,
+
+double
+delta_sh_l,
+delta_sh_p,
+delta_sh_n,
+delta_stv_l,
+delta_stv_p,
+delta_stv_n,
+fi_delta_sh_l,
+fi_delta_sh_p,
+delta_tel_l,
+delta_tel_p,
+Sl,
+Sp,
+Ushal, Ushap,
+Ush1dpp;
