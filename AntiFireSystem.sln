@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LandingGear_HydroValves", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LandingGear_EndingSwitchesMechanism", "LandingGear_EndingSwitchesMechanism\LandingGear_EndingSwitchesMechanism.vcxproj", "{C8452013-04E8-4F5D-928A-C8E5F5573C10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LandingGear_RelayDefinition", "LandingGear_RelayDefinition\LandingGear_RelayDefinition.vcxproj", "{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -381,6 +383,14 @@ Global
 		{C8452013-04E8-4F5D-928A-C8E5F5573C10}.Release|x64.Build.0 = Release|x64
 		{C8452013-04E8-4F5D-928A-C8E5F5573C10}.Release|x86.ActiveCfg = Release|Win32
 		{C8452013-04E8-4F5D-928A-C8E5F5573C10}.Release|x86.Build.0 = Release|Win32
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Debug|x64.ActiveCfg = Debug|x64
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Debug|x64.Build.0 = Debug|x64
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Debug|x86.ActiveCfg = Debug|Win32
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Debug|x86.Build.0 = Debug|Win32
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Release|x64.ActiveCfg = Release|x64
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Release|x64.Build.0 = Release|x64
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Release|x86.ActiveCfg = Release|Win32
+		{642EDE8B-3A0F-446C-B4C7-B6A561D2862F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
